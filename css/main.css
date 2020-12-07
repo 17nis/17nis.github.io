@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
 .mediaLogo {
-  width: 30px;
+  width: 25px;
   height: auto;
 }
 
@@ -45,6 +45,7 @@ header {
 header .logo {
   color: #00F7FF;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 header ul {
@@ -60,6 +61,12 @@ header ul a {
 
 .social-header, .hero-design {
   display: none;
+}
+
+.social-header ul li a img {
+  width: 25px;
+  height: auto;
+  margin: 0 10px;
 }
 
 .hero {
@@ -79,6 +86,7 @@ header ul a {
   width: 250px;
   font-weight: bold;
   color: #FF64CB;
+  font-size: 1.1em;
 }
 
 .meet span {
@@ -186,6 +194,17 @@ section {
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 2em;
+}
+
+footer {
+  background-color: #6700EE;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  padding: 2em;
 }
 
 @media only screen and (min-width: 800px) {
