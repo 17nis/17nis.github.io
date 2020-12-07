@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 .mediaLogo {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: auto;
 }
 
 body {
@@ -136,6 +136,10 @@ section {
   font-weight: 500;
 }
 
+.image-container img {
+  border-radius: 10px;
+}
+
 .skills {
   background: #FF64CB;
 }
@@ -156,15 +160,15 @@ section {
 }
 
 .skills-container ul li .icon-container.one {
-  width: 50px;
-}
-
-.skills-container ul li .icon-container.two {
   width: 100px;
 }
 
+.skills-container ul li .icon-container.two {
+  width: 90px;
+}
+
 .skills-container ul li .icon-container.three {
-  width: 60px;
+  width: 90px;
 }
 
 .skills-container ul li .skill-title {

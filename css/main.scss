@@ -1,6 +1,6 @@
 .mediaLogo{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: auto;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
@@ -123,6 +123,9 @@ section {
     font-weight: 500;
 
 }
+.image-container img{
+    border-radius: 10px;
+}
 
 .skills {
     background: #FF64CB;
@@ -142,13 +145,13 @@ section {
         margin:  0 auto;
 
         &.one { 
-            width: 50px;
-        }
-        &.two { 
             width: 100px;
         }
+        &.two { 
+            width: 90px;
+        }
         &.three { 
-            width: 60px;
+            width: 90px;
         }
     }
 
