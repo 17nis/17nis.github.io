@@ -248,7 +248,7 @@ footer p {
 
 @media only screen and (min-width: 1050px) {
   .hero {
-    height: 80vh;
+    height: 90vh;
   }
   .nav-container {
     display: -ms-grid;
@@ -344,6 +344,36 @@ footer p {
   }
   .hero .content {
     padding: 9em 8em 6em 20em;
+  }
+}
+
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: translate(264px, 729px);
+            transform: translate(264px, 729px);
+    z-index: 6;
+  }
+  to {
+    -webkit-transform: translate(264px, 760px);
+            transform: translate(264px, 760px);
+    z-index: 5;
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    -webkit-transform: translate(264px, 729px);
+            transform: translate(264px, 729px);
+    z-index: 6;
+  }
+  to {
+    -webkit-transform: translate(264px, 760px);
+            transform: translate(264px, 760px);
+    z-index: 5;
   }
 }
 /*# sourceMappingURL=main.css.map */

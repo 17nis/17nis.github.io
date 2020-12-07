@@ -234,7 +234,7 @@ footer {
 @media only screen and (min-width: 1050px) {
 
     .hero {
-        height: 80vh;
+        height: 90vh;
     }
     .nav-container {
         display: grid;
@@ -337,4 +337,19 @@ footer {
         padding: 9em 8em 6em 20em;
     }
 
+}
+
+.circle {
+    animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@keyframes circleAnim {
+    from {
+        transform: translate(264px, 729px,);
+        z-index: 6;
+    }
+    to {
+        transform: translate(264px, 760px);
+        z-index: 5;
+    }
 }
